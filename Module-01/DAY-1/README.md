@@ -1,8 +1,7 @@
 # Ex.No:1(A) CLASS & OBJECTS
 
 ## AIM:
-To create a class named 'Student' with String variable 'name' and String variable 'address'.
-
+To Create a class named 'Student' with String variable 'dept', String variable 'name' and  and integer variable 'rollno'.
 ## ALGORITHM :
 1.	Start the program.
 2.	Define a class named 'Student'
@@ -20,22 +19,35 @@ To create a class named 'Student' with String variable 'name' and String variabl
  ```
 /*
 Program to implement a class & objects using Java
-Developed by: 
-RegisterNumber:  
+Developed by: THARUN DANIEL Y
+RegisterNumber: 212224050054
 */
+
+public class Student
+{
+    String dept,name;
+    int rollno;
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Student obj= new Student();
+        obj.dept="AIML";
+        obj.name="John";
+        obj.rollno=15;   
+        System.out.println(obj.dept+" "+obj.name+" "+obj.rollno);
+    }   
+} 
+
+
 ```
-
-## Sourcecode.java:
-
-
-
-
 
 
 
 ## OUTPUT:
+![image](https://github.com/user-attachments/assets/43e4a7fe-a675-4d39-9d50-fe0b6130a8e8)
 
 
 
 ## RESULT:
-Thus, the class named 'Student' with String variable 'name' and String variable 'address' was created successfully.
+Thus, the  class named 'Student' with String variable 'dept', String variable 'name' and  and integer variable 'rollno' was created successfully.
